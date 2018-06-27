@@ -35,7 +35,25 @@ if (pUnicode > lUnicode) {
     console.log("Next!");
 }
 
-
-function sayHello(msg) {
-   alert ("Hello world!");
+//setting up my function from lecture example
+console.log(add(5,5));
+function add (num1, num2){
+    return num1 + num2;
 }
+
+//copied and pasted function from above and changed values
+console.log(sayHello(alert));
+function sayHello() {
+    alert("hello world");
+}
+
+
+console.log(checkAge("Paula", 20));
+function checkAge(name, age){
+    if (age <21){
+       alert ("Sorry name you aren't old enough to view this page!");
+    } 
+
+    
+}
+
