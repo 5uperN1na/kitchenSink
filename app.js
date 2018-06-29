@@ -106,11 +106,82 @@ veggies.forEach(function (veggies) {
     console.log(veggies);
 });
 
-//Object 
+//Array with an object and two properties where the properties will be passed to the ckAge function that will check if older or under 21.
 
-var people = {
+
+var person = {
     name: 'Paula',
-    age: '41',
+    age: 41
+
 };
 
-    console.log(people.name);
+console.log(checkAge(person.name, person.age));
+function checkAge(name, age) {
+    if (age < 21) {
+        alert('Sorry ' + name + ' you are not old enough to view this page.');
+    } else {
+        alert('Congrats ' + name + ' you are old enough to view this page.');
+    }
+}
+
+var person = {
+    name: 'Viven',
+    age: 2
+
+};
+
+console.log(checkAge(person.name, person.age));
+function checkAge(name, age) {
+    if (age < 21) {
+        alert('Sorry ' + name + ' you are not old enough to view this page.');
+    } else {
+        alert('Congrats ' + name + ' you are old enough to view this page.');
+    }
+}
+
+var person = {
+    name: 'Julien',
+    age: 5
+
+};
+
+console.log(checkAge(person.name, person.age));
+function checkAge(name, age) {
+    if (age < 21) {
+        alert('Sorry ' + name + ' you are not old enough to view this page.');
+    } else {
+        alert('Congrats ' + name + ' you are old enough to view this page.');
+    }
+}
+
+var person = {
+    name: 'Hernan',
+    age: 47
+
+};
+
+console.log(checkAge(person.name, person.age));
+function checkAge(name, age) {
+    if (age < 21) {
+        alert('Sorry ' + name + ' you are not old enough to view this page.');
+    } else {
+        alert('Congrats ' + name + ' you are old enough to view this page.');
+    }
+}
+
+var person = {
+    name: 'Family Dog',
+    age: 99
+
+};
+
+console.log(checkAge(person.name, person.age));
+function checkAge(name, age) {
+    if (age < 21) {
+        alert('Sorry ' + name + ' you are not old enough to view this page.');
+    } else {
+        alert('Congrats ' + name + ' you are old enough to view this page.');
+    }
+}
+
+
