@@ -106,76 +106,21 @@ veggies.forEach(function (veggies) {
     console.log(veggies);
 });
 
-//Array with an object and two properties where the properties will be passed to the ckAge function that will check if older or under 21.
+//Array with an 5 objects and two properties where the properties will be passed to the ckAge function that will check if older or under 21.
 
 
 var person = {
-    name: 'Paula',
-    age: 41
-
+    paula: {name: 'Paula', age: 41},
+    vivien: {name: 'Vivien', age: 2},
+    hernan: {name: 'Hernan', age: 47},
+    julien: {name: 'Julien', age: 5},
+    dog: {name: 'Dog', age: 99}
+    
 };
 
+ 
 console.log(checkAge(person.name, person.age));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
 
-var person = {
-    name: 'Viven',
-    age: 2
-
-};
-
-console.log(checkAge(person.name, person.age));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
-
-var person = {
-    name: 'Julien',
-    age: 5
-
-};
-
-console.log(checkAge(person.name, person.age));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
-
-var person = {
-    name: 'Hernan',
-    age: 47
-
-};
-
-console.log(checkAge(person.name, person.age));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
-
-var person = {
-    name: 'Family Dog',
-    age: 99
-
-};
-
-console.log(checkAge(person.name, person.age));
 function checkAge(name, age) {
     if (age < 21) {
         alert('Sorry ' + name + ' you are not old enough to view this page.');
