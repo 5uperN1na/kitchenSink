@@ -108,7 +108,6 @@ veggies.forEach(function (veggies) {
 
 //Array with an 5 objects and two properties where the properties will be passed to the ckAge function that will check if older or under 21.
 
-
 var person = [
     {
         name: 'Paula',
@@ -145,7 +144,44 @@ for (i = 0; i < person.length; i++) {
         }
     }
 
+
+
 }
+
+//Create a function that passes a string as an argument and getting length of string.  Should be 5 or "Paula".
+
+var name = 'Paula';
+console.log(getLength(name));
+function getLength(name) {
+    console.log(name.length);
+}
+
+//Different function passing string argument and getting length after clicking button.
+//var myname = 'Suarez';
+//console.log(myfunction(myname));
+//document.write('<button id="button" type="button" onclick="myfunction(myname);">click</button>');
+//function myfunction(myname) {
+//alert(myname.length);
+//}
+
+//Using function from above to pass "Hellow World" and getting length back--should be 11.  Store length in a variable the test whether it is an odd (display appropriate message) or even and displate appropriate message.
+var name = 'Hello World';
+console.log(getLength(name));
+function getLength(name) {
+    var x = name.length;
+    console.log(x);
+
+    if (x % 2 == 0)
+        console.log("The world is even and nice!");
+    else
+        console.log("The world is odd place!");
+
+}
+
+
+
+
+
 
 
 
