@@ -48,7 +48,6 @@ function sayHello() {
 }
 
 //checkAge function that checks under 21--alert that they can't view page if 21 or older they can view page.
-console.log(checkAge("Paula", 20));
 function checkAge(name, age) {
     if (age < 21) {
         alert('Sorry ' + name + ' you are not old enough to view this page.');
@@ -57,45 +56,15 @@ function checkAge(name, age) {
     }
 }
 
-//checkAge function that checks under 21--alert that they can't view page if 21 or older they can view page.
-console.log(checkAge("Charles", 21));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
+//Calling checkAge function and passing 5 individuals each with a name and age argument.
 
-//checkAge function that checks under 21--alert that they can't view page if 21 or older they can view page.
-console.log(checkAge("Abby", 27));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
+checkAge('Paula', 41);
+checkAge('Charles', 21);
+checkAge('Abby', 27);
+checkAge('James', 18);
+checkAge ('John', 17);
 
-//checkAge function that checks under 21--alert that they can't view page if 21 or older they can view page.
-console.log(checkAge("James", 18));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
 
-//checkAge function that checks under 21--alert that they can't view page if 21 or older they can view page.
-console.log(checkAge("John", 17));
-function checkAge(name, age) {
-    if (age < 21) {
-        alert('Sorry ' + name + ' you are not old enough to view this page.');
-    } else {
-        alert('Congrats ' + name + ' you are old enough to view this page.');
-    }
-}
 //Array with fav veggies
 var veggies = ['green beans', 'tomatoes', 'lettuce'];
 //testing alert 
